@@ -1,0 +1,224 @@
+#water{
+animation:waves 6s ease-in-out infinite;
+-moz-animation:waves 6s ease-in-out infinite;
+-webkit-animation:waves 6s ease-in-out infinite;
+-webkit-transform-origin: center bottom;
+-moz-transform-origin: center bottom;
+-ms-transform-origin: center bottom;
+-o-transform-origin: center bottom;
+transform-origin: center bottom;
+}
+
+@keyframes waves
+{
+0% {margin-left:-10px; transform:rotate(-0.5deg); -webkit-transform:rotate(-0.5deg);}
+50% {margin-left:10px; transform:rotate(0.5deg); -webkit-transform:rotate(0.5deg);}
+100% {margin-left:-10px; transform:rotate(-0.5deg); -webkit-transform:rotate(-0.5deg);}
+}
+
+@-webkit-keyframes waves /* Safari and Chrome */
+{
+0% {margin-left:-10px; -webkit-transform:rotate(-0.5deg);}
+50% {margin-left:10px; -webkit-transform:rotate(0.5deg);}
+100% {margin-left:-10px; -webkit-transform:rotate(-0.5deg);}
+}
+
+@-moz-keyframes waves/* Safari and Chrome */
+{
+0% {margin-left:-10px; -moz-transform:rotate(-0.5deg);}
+50% {margin-left:10px; -moz-transform:rotate(0.5deg);}
+100% {margin-left:-10px; -moz-transform:rotate(-0.5deg);}
+}
+
+#casino{
+animation:boat 4s ease-in-out infinite;
+-moz-animation:boat 4s ease-in-out infinite;
+-webkit-animation:boat 4s ease-in-out infinite;
+}
+
+@keyframes boat
+{
+0% {margin-left:-5px; transform:rotate(0.5deg); -webkit-transform:rotate(0.5deg);}
+50% {margin-left:5px; transform:rotate(-0.5deg); -webkit-transform:rotate(-0.5deg);}
+100% {margin-left:-5px; transform:rotate(0.5deg); -webkit-transform:rotate(0.5deg);}
+}
+
+@-webkit-keyframes waves /* Safari and Chrome */
+{
+0% {margin-left:-5px; -webkit-transform:rotate(0.5deg);}
+50% {margin-left:5px; -webkit-transform:rotate(-0.5deg);}
+100% {margin-left:-5px; -webkit-transform:rotate(0.5deg);}
+}
+
+@-moz-keyframes waves/* Safari and Chrome */
+{
+0% {margin-left:-5px; -moz-transform:rotate(0.5deg);}
+50% {margin-left:5px; -moz-transform:rotate(-0.5deg);}
+100% {margin-left:-5px; -moz-transform:rotate(0.5deg);}
+}
+
+/************* Poder Animation ****************/
+#poder {
+    -webkit-animation: cycle 0.5s steps(4) infinite;
+    -moz-animation: cycle 0.5s steps(4) infinite;
+    -ms-animation: cycle 0.5s steps(4) infinite;
+    -o-animation: cycle 0.5s steps(4) infinite;
+    animation: cycle 0.5s steps(4) infinite;
+}
+
+@-webkit-keyframes cycle {
+	0% { background-position:    0px; }
+	100% { background-position:    -1415px; }
+
+}
+
+@-moz-keyframes cycle {
+	0% { background-position:    0px; }
+	100% { background-position:    -1415px; }
+}
+
+@-ms-keyframes cycle {
+	0% { background-position:    0px; }
+	100% { background-position:    -1415px; }
+}
+
+@-o-keyframes cycle {
+	0% { background-position:    0px;}
+	100% { background-position:    -1415px;}
+}
+
+@keyframes cycle {
+	0% { background-position:    0px; }
+	100% { background-position:    -1415px; }
+}
+
+/************* Poder Animation ****************/
+#man-dog {
+    -webkit-animation: walk 1s steps(4) infinite;
+    -moz-animation: walk 1s steps(4) infinite;
+    -ms-animation: walk 1s steps(4) infinite;
+    -o-animation: walk 1s steps(4) infinite;
+    animation: walk 1s steps(4) infinite;
+}
+
+@-webkit-keyframes walk {
+	0% { background-position:    0px; }
+	100% { background-position:    -1235px; }
+
+}
+
+@-moz-keyframes walk {
+	0% { background-position:    0px; }
+	100% { background-position:    -1235px; }
+}
+
+@-ms-keyframes walk {
+	0% { background-position:    0px; }
+	100% { background-position:    -1235px; }
+}
+
+@-o-keyframes walk {
+	0% { background-position:    0px;}
+	100% { background-position:    -1235px;}
+}
+
+@keyframes walk {
+	0% { background-position:    0px; }
+	100% { background-position:    -1235px; }
+}
+
+/************* Kites Far Animation ****************/
+#buildings-row-far-anim {
+    -webkit-animation: kitesfar 0.5s steps(2) infinite;
+    -moz-animation: kitesfar 0.5s steps(2) infinite;
+    -ms-animation: kitesfar 0.5s steps(2) infinite;
+    -o-animation: kitesfar 0.5s steps(2) infinite;
+    animation: kitesfar 0.5s steps(2) infinite;
+}
+
+@-webkit-keyframes kitesfar {
+	0% { background-position:    0px; }
+	100% { background-position:    -685px; }
+
+}
+
+@-moz-keyframes kitesfar {
+	0% { background-position:    0px; }
+	100% { background-position:    -685px; }
+}
+
+@-ms-keyframes kitesfar {
+	0% { background-position:    0px; }
+	100% { background-position:    -685px; }
+}
+
+@-o-keyframes kitesfar {
+	0% { background-position:    0px;}
+	100% { background-position:    -685px;}
+}
+
+@keyframes kitesfar {
+	0% { background-position:    0px; }
+	100% { background-position:    -685px; }
+}
+
+
+/************* Kite Fail Animation ****************/
+/*#kite-fail {
+    -webkit-animation: kitefail 3s steps(1) infinite;
+    -moz-animation: kitefail 3s steps(1) infinite;
+    -ms-animation: kitefail 3s steps(1) infinite;
+    -o-animation: kitefail 3s steps(1) infinite;
+    animation: kitefail 3s steps(1) infinite;
+}
+
+@-webkit-keyframes kitefail {
+	0% { background-position:    0px; }
+    16.67% { background-position:    -376.66666666667px; }
+    33.33% { background-position:    -753.33333333333px; }
+    50% { background-position:    -1130px; }
+    66.67% { background-position:    -1506.66666666667px; }
+    83.33% { background-position:    -1883.33333333333px; }
+	100% { background-position:    -2260px; }
+
+}
+
+@-moz-keyframes kitefail {
+	0% { background-position:    0px; }
+    16.67% { background-position:    -376.66666666667px; }
+    33.33% { background-position:    -753.33333333333px; }
+    50% { background-position:    -1130px; }
+    66.67% { background-position:    -1506.66666666667px; }
+    83.33% { background-position:    -1883.33333333333px; }
+	100% { background-position:    -2260px; }
+}
+
+@-ms-keyframes kitefail {
+	0% { background-position:    0px; }
+    16.67% { background-position:    -376.66666666667px; }
+    33.33% { background-position:    -753.33333333333px; }
+    50% { background-position:    -1130px; }
+    66.67% { background-position:    -1506.66666666667px; }
+    83.33% { background-position:    -1883.33333333333px; }
+	100% { background-position:    -2260px; }
+}
+
+@-o-keyframes kitefail {
+	0% { background-position:    0px; }
+    16.67% { background-position:    -376.66666666667px; }
+    33.33% { background-position:    -753.33333333333px; }
+    50% { background-position:    -1130px; }
+    66.67% { background-position:    -1506.66666666667px; }
+    83.33% { background-position:    -1883.33333333333px; }
+	100% { background-position:    -2260px; }
+}
+
+@keyframes kitefail {
+	0% { background-position:    0px; }
+    16.67% { background-position:    -376.66666666667px; }
+    33.33% { background-position:    -753.33333333333px; }
+    50% { background-position:    -1130px; }
+    66.67% { background-position:    -1506.66666666667px; }
+    83.33% { background-position:    -1883.33333333333px; }
+	100% { background-position:    -2260px; }
+}*/

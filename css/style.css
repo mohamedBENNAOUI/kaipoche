@@ -1,0 +1,621 @@
+
+
+body {
+	width:100%;
+	height:100%;
+}
+
+#content-wrapper {
+	height: 10000px;
+}
+* {
+    box-sizing: border-box;
+}
+
+/*@font-face
+{
+    font-family: GothamBold;
+    src: url(../fonts/GothamBold.ttf);
+}
+
+@font-face
+{
+    font-family: GothamMedium;
+    src: url(../fonts/GothamMedium.ttf);
+}
+
+@font-face
+{
+    font-family: GothamBlack;
+    src: url(../fonts/GothamBlack.ttf);
+}
+
+@font-face
+{
+    font-family: GothamThin;
+    src: url(../fonts/GothamThin.ttf);
+}
+
+@font-face
+{
+    font-family: GothamLight;
+    src: url(../fonts/GothamLight.ttf);
+}*/
+
+h2 {
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+    color: #FFF;
+    font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B';
+    }
+    h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    color: #FFF;
+    line-height: 1.1em;
+    font-family: 'Gotham SSm A', 'Gotham SSm B';
+    font-weight: 200;
+    font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B';
+    padding-top: 10px;
+}
+p{
+    margin:0;
+    padding:0;
+}
+
+/*
+a, a:visited { color: #FFC926; }
+*/
+ul { list-style: none; }
+
+.main-container{
+    position:fixed;
+	width:100%;
+	height:100%;
+}
+
+.parallax-container{
+    background: #EE6B49;
+    position:fixed;
+	width:100%;
+	height:100%;
+}
+
+#kite1{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:99;
+    background:url('../images/kite45.html');
+    background-repeat:no-repeat;
+    background-size:150%;
+    background-position:0% 0%;
+}
+
+#kite2{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:98;
+    background:url('../images/kite-2.html');
+    background-repeat:no-repeat;
+    background-position: 60% 60%;
+    top:-37%;
+    left:21%;
+    zoom:0.8;
+}
+
+#logo-main{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-image:url("../images/logo.png");
+    background-repeat:no-repeat;
+    background-position:50% 10%;
+    z-index:2;
+}
+
+#logo-load{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-image:url("../images/logo.png");
+    background-repeat:no-repeat;
+    background-position:50% 10%;
+    z-index:2;
+}
+
+#scroll-down{
+    position:absolute;
+    width:100%;
+    top:43%;
+    text-align:center;
+    z-index:2;
+}
+
+#casino{
+    position:absolute;
+    background-image:url("../images/casino-sprite.png");
+    background-repeat:no-repeat;
+    bottom: -23%;
+    left: 60%;
+    z-index:3;
+    zoom:1;
+    width:506.25px;
+    height:300px;
+}
+
+#whale{
+    position:absolute;
+    background-image:url("../images/whale-04.svg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:contain;
+    left: 45%;
+    transform:rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform:rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    bottom:-100%;
+    z-index:3;
+    width:300px;
+    height:400px;
+    zoom:1;
+}
+
+#water{
+    position:absolute;
+    background-image: url("../images/wave.png");
+    background-repeat: repeat;
+    background-position:center top;
+    bottom: -45%;
+    left:-5%;
+    width: 110%;
+    height: 30%;
+    opacity: 1;
+    z-index:4;
+    transform:scale(80%);
+    -webkit-transform: scale(80%);
+    -moz-transform:scale(80%);
+    -ms-transform: scale(80%);
+    -o-transform: scale(80%);
+}
+
+#buildings-row-far{
+    position:absolute;
+    background-image: url("../images/buildings-row-far.svg");
+    background-repeat: repeat-x;
+    bottom: -200%;
+    background-position:center bottom;
+    width: 100%;
+    height: 200%;
+    opacity: 1;
+    z-index:5;
+}
+#buildings-row-mid{
+    position:absolute;
+    background-image: url("../images/buildings-row-mid.svg");
+    background-repeat: repeat-x;
+    bottom: -200%;
+    background-position:center bottom;
+    width: 100%;
+    height: 200%;
+    opacity: 1;
+    z-index:6;
+}
+
+#buildings-row-front{
+    position:relative;
+    background-image: url("../images/houserow-front-trial-animate-code.svg");
+    background-repeat: no-repeat;
+    bottom:-100%;
+    background-position:center center;
+    width: 100%;
+    height: 200%;
+    opacity: 1;
+    z-index:8;
+
+}
+
+#houses-inside{
+    opacity: 0;
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    top: 25%;    
+    left: 0%;
+}
+
+#straight-couple{
+    background-image: url("../images/straight-couple.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 4;
+    width: 11%;
+    height: 18.5%;
+    top: 68.2%;
+    left: 44%;
+}
+
+#curtains{
+    opacity:0.87;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+    z-index: 5;
+    width: 9%;
+    height: 16.2%;
+    top: 69.2%;
+    left: 44.8%;
+}
+
+#curtain-left{
+    background-image: url("../images/curtain-left.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    margin-left: 0%;
+    display:inline;
+    float:left;
+    clear:left;
+    transition:all 0.5s;
+}
+
+#curtain-right{
+    background-image: url("../images/curtain-right.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    margin-right: 0%;
+    display:inline;
+    float:right;
+    clear:right;
+    transition:all 0.5s;
+}
+
+
+
+#gay-couple{
+    background-image: url("../images/gay-brothers.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 4;
+    width: 9.2%;
+    height: 18.2%;
+    top: 90.7%;
+    left: 5.5%;
+}
+
+#kitchen-aunty{
+    background-image: url("../images/kitchen-aunty.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 4;
+    width: 11.2%;
+    height: 20%;
+    top: 85.3%;
+    left: 84.5%;
+}
+
+#shower-guy{
+    background-image: url("../images/shower-guy.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 4;
+    width: 5.2%;
+    height: 11.2%;
+    top: 67%;
+    left: 7%;
+}
+
+#porn-tv{
+    background-color:#000000;
+    background-image: url("../images/tv2.gif");
+    background-size: cover;
+    position: absolute;
+    z-index: 4;
+    width: 7.2%;
+    height: 8.2%;
+    top: 59%;
+    left: 72.5%;
+}
+
+#tv-hover{
+    position: absolute;
+    top: 44%;
+    left: 66.67%;
+    width: 33.33%;
+    height: 29%;
+    z-index: 99;
+}
+
+#curtain-hover{
+    position: absolute;
+    top: 44%;
+    left: 33.33%;
+    width: 33.33%;
+    height: 29%;
+    z-index: 99;
+}
+
+#rope-hover{
+    position: absolute;
+    top: 44%;
+    left: 0%;
+    width: 33.33%;
+    height: 29%;
+    z-index: 99;
+}
+
+#aunty{
+    position:absolute;
+    background-image:url("../images/aunty.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    top: 50.6%;
+    left: 25%;
+    width: 4.5%;
+    height: 6%;
+    opacity:0;
+}
+#rope{
+    position:absolute;
+    background-image:url("../images/rope.png");
+    background-size:contain;
+    background-repeat:no-repeat;
+    top:  56.1%;    
+    left: 25.2%;
+    width:4%;
+    height:20%;
+    transition:all 1s;
+    opacity:0;
+}
+
+
+#poder{
+    position:absolute;
+    background-image:url("../images/poder-sprite.png");
+    z-index:10;
+    width: 353px;
+    height: 300px;    
+    margin-left:10%;
+    margin-top:14%;
+    zoom:0.75;
+    -moz-transform:scale(0.75);
+
+}
+
+#man-dog{
+    position:absolute;
+    background-image:url("../images/man-dog-sprite.png");
+    z-index:9;
+    width:308.75px;
+    height:300px;
+    margin-left:10%;
+    margin-top:12%;
+    zoom:0.6;
+    -moz-transform:scale(0.6) translateY(-120px);
+}
+
+.hero-text {
+    top:38%;
+    z-index:2;
+    position:absolute;
+    text-align:center;
+    width:100%;
+    opacity:0;
+}
+
+#road{
+    opacity:0;
+    position:absolute;
+    top:70%;
+    width:100%;
+    height:75%;
+    overflow:hidden;
+    background-color: #544F54;
+}
+
+#roof-people{
+    background-image: url("../images/roof-people-11.html");
+    background-repeat: no-repeat;
+    top: 36.8%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size:500% 500%;
+    background-position:center;
+    z-index:8;
+}
+
+#soc-med{
+    background-color: #433e43;
+    width: 100%;
+    padding-top:55px;
+    padding-bottom:55px;
+    position: relative;
+    z-index:23;
+}
+
+@media (min-width: 1598px) {
+    #poder{
+        zoom:0.8;
+        -moz-transform:scale(0.8);
+    
+    }
+    
+    #man-dog{
+        zoom:0.65;
+        -moz-transform:scale(0.65) translateY(-100px);
+    }
+    #kitchen-aunty{
+        top: 84.5%;
+    }
+    #gay-couple{
+        top: 90%;
+    }
+    #rope{
+        top: 55.5%;
+    }
+}
+
+@media (min-width: 1900px) {
+    #poder{
+        zoom:0.9;
+        -moz-transform:scale(0.9);
+    
+    }
+    
+    #man-dog{
+        zoom:0.8;
+        -moz-transform:scale(0.8) translateY(-50px);
+    }
+}
+
+@media (min-width: 2400px) {
+    #poder{
+        zoom:1.1;
+        -moz-transform:scale(1.1);
+    
+    }
+    
+    #man-dog{
+        zoom:1;
+        -moz-transform:scale(1) translateY(0px);
+    }
+    #kitchen-aunty{
+        top: 84.5%;
+    }
+    #gay-couple{
+        top: 90%;
+    }
+    #rope{
+        top: 55.5%;
+    }
+}
+
+@media (min-width: 2800px) {
+    #poder{
+        zoom:1.2;
+        -moz-transform:scale(1.2);
+    
+    }
+    
+    #man-dog{
+        zoom:1.1;
+        -moz-transform:scale(1.1) translateY(-170px);
+    }
+    #kitchen-aunty{
+        top: 81%;
+    }
+    #gay-couple{
+        top: 87%;
+    }
+    #rope{
+        top: 54.7%;
+    }
+}
+
+
+
+
+#social{
+    text-align: center;
+    vertical-align: middle;
+}
+.socmed-item{
+    display: inline-block;
+    margin-left:5px;
+    margin-right:5px;
+
+}
+#baloonBounce{
+    background-image: url("../images/scrollDown.png");
+    background-repeat: no-repeat;
+    background-position:center center;
+    margin:0 auto;
+    width:96px;
+    height:96px;
+    -moz-animation: baloonBounceAnim 1500ms infinite ease-in-out;
+    -webkit-animation: baloonBounceAnim 1500ms infinite ease-in-out;
+    -moz-transition: -moz-transform;
+    -webkit-transition: -webkit-transform;
+}
+
+@-moz-keyframes baloonBounceAnim {
+    0% { -moz-transform: translateY(0) }
+    50% { -moz-transform: translateY(20px) }
+    100%{ -moz-transform: translateY(0) }
+}
+@-webkit-keyframes baloonBounceAnim{
+    0% { -webkit-transform: translateY(0) }
+    50% { -webkit-transform: translateY(20px) }
+    100%{ -webkit-transform: translateY(0) }
+}
+
+.message{
+    display:none;
+    background: #EE6B49;
+    width:100%;
+    height:100%;
+    text-align:center;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.message-container{
+    width:40%;
+    margin:10% auto;
+}
+
+.message-text{
+    line-height:160%;
+
+}
+
+@media (max-width: 1025px) {
+    
+    body{
+        height:100% !important;
+    }
+    
+    h3{
+        font-size:40px;
+    }
+    
+    .parallax-container{
+        display:none;
+        width:0%;
+    }
+    .content{
+        display:none;
+        width:0%;
+    }
+    #soc-med{
+        display:none;
+        width:0%;
+    }
+    .content{
+        display:none;
+        width:0%;
+    }
+    .message{
+        display:block;
+    }
+    .superscrollorama-pin-spacer
+    {
+        display:none;
+    }
+}
+

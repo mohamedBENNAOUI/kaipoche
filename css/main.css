@@ -1,0 +1,308 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+body{
+    margin: 0px;
+    font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; font-style: normal;
+}
+/*@font-face{
+    font-family: GothamLight;
+    src: url(../fonts/Gotham-Light.ttf);
+    color: #444444;
+}
+@font-face{
+    font-family: GothamBook;
+    src: url(../fonts/Gotham-Book.ttf);
+    color: #444444;
+}
+@font-face{
+    font-family: intro;
+    src: url(../fonts/Intro-Bold.otf);
+    color: #444444;
+}*/
+/*.container{
+    width: 1170px;
+    margin: 0 auto;
+    height: auto;
+    display: table;
+    padding-top:36px;
+    position:relative;
+    z-index:10;
+}*/
+/*.wrap{
+
+}
+.wrap .wrapbox{
+    width: 308px;
+    height: auto;
+    float: left;
+    font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B';
+    font-weight: 300;
+    margin-right: 99px;
+    margin-left: 10px;
+}*/
+.title-in{
+
+}
+.title{
+    font-size: 40px;
+    margin: 0;
+}
+.text1{
+    font-size: 20px;
+    line-height: 26px;
+}
+.last{
+    margin-right: 0px !important;
+}
+
+.registerwrap {
+    width: 100%;
+    display: block;
+    /* height: 180px; */
+    background: #ED6948;
+    /* margin-top: 40px; */
+    padding: 50px 0px;
+}
+.intrest{
+    font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B';
+    font-weight: 400;
+
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 72px;
+}
+.intrest a{
+    margin-left: 48px;
+
+}
+.register{
+    border: 2px solid #FFC926;
+    padding: 10px 21px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #FFC926;
+}
+@media (max-width: 1199px) {
+    .register {
+      margin-top: 15px;
+      display: inline-block;
+    }
+}
+@media (max-width: 991px) {
+    .register{
+      font-size: 28px; /* 60px */
+    }
+      .intrest a{
+        margin-left: 0px;
+
+    }
+}
+@media (max-width: 480px) {
+    .intrest {
+       font-size: 22px;
+    }
+    .register {
+        font-size: 20px;/* 40px; */
+    }
+    h2 {
+      font-size: 28px;
+    }
+
+}
+.register:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #FFC926;
+}
+
+.ventures ul {
+    list-style: none;
+    padding-top: 18px;
+    padding-left: 0;
+    display: table;
+    width: 100%;
+}
+.ventures ul li {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 1%;
+}
+.ventures ul li img {
+    width: 85%;
+}
+.ventures ul li:last-child {
+    margin-right: 0;
+    padding-left: 0;
+}
+.other{
+        font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; 
+        font-weight: 300;
+        font-size: 45px;
+        text-align: center;
+        margin-top: 68px;
+        margin-bottom: 26px;
+}
+.btn{
+    margin-top: 35px;
+    
+}
+.see{
+     font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; 
+    font-weight: 300;
+    color: #EC6847;
+    text-decoration: none;
+    border: 2px solid #EC6847;
+    border-radius: 6px;
+    padding: 6px 11px;
+}
+
+.see img{
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 8px;
+}
+.see span{
+    vertical-align: baseline;
+    
+    padding-top: 9px;
+    display: inline-block;
+}
+.footer{
+    text-align: center;
+    
+     font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; 
+    font-weight: 300;
+    color: #777070;
+    font-size: 16px;
+    margin: 7px;
+    padding-bottom: 8px;
+}
+.footer img{
+    vertical-align: middle;
+}
+footer{
+    border-top: 1px solid;
+    margin-top: 34px;
+    position:relative; top:10%; z-index:999
+}
+.footer a{
+    color: #777070;
+    text-decoration: none;
+}
+
+.content{
+    position:absolute;
+    top:145%;
+    width:100%;
+    z-index:9;
+}
+
+/*
+@media (min-width: 1300px){
+  .content {
+    top: 9%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .content {
+    top: 10.5%;
+  }
+}
+@media (min-width: 1500px) {
+  .content {
+    top: 11.5%;
+  }
+}
+@media (min-width: 1600px) {
+  .content {
+    top: 12.5%;
+  }
+}
+@media (min-width: 1900px) {
+  .content {
+    top: 13.5%;
+  }
+@media (min-width: 2100px) {
+  .content {
+    top: 17.5%;
+  }
+}
+*/
+
+.bottom-spacer{
+    width:100%;
+    height:2000px;
+}
+
+#spinner {
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%; 
+    height: 100%; 
+    z-index: 9999; 
+    background: #EE6B49;
+    display:none;
+}
+
+.spinner{
+    text-align: center;
+    top:43%;
+    height: 50px;
+    width: 50px;
+    margin: 27% auto;
+    margin-bottom:10%;
+}
+.cube1, .cube2 {
+  background-color: #FFF;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: cubemove 1.8s infinite ease-in-out;
+  animation: cubemove 1.8s infinite ease-in-out;
+}
+
+.cube2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+@-webkit-keyframes cubemove {
+  25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
+  50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) }
+  75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) }
+  100% { -webkit-transform: rotate(-360deg) }
+}
+
+@keyframes cubemove {
+  25% { 
+    transform: translateX(42px) rotate(-90deg) scale(0.5);
+    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+  } 50% { 
+    transform: translateX(42px) translateY(42px) rotate(-179deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+  } 50.1% { 
+    transform: translateX(42px) translateY(42px) rotate(-180deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+  } 75% { 
+    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+  } 100% { 
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+  }
+}
+
+#spinner::-webkit-scrollbar { 
+    display: none; 
+}
